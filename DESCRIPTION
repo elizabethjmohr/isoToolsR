@@ -4,6 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person(given = "Elizabeth",
            family = "Mohr",
+           email = "elizabethmohr1@montana.edu",
            role = c("aut", "cre"))
 Description: The isotopeUtilsR package is a simple package for converting among stable isotope measures such as atom fractions, isotope ratios, and delta values.
 License: MIT + file LICENSE
