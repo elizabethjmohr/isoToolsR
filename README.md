@@ -1,22 +1,22 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# isotopeUtilsR
+# isoToolsR
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The isotopeUtilsR package provides basic convenience functions for
+The isoToolsR package provides basic convenience functions for
 converting among stable isotope measures such as atom fractions, isotope
 ratios, and delta values.
 
 ## Installation
 
-<!-- You can install the released version of isotopeUtilsR from [CRAN](https://CRAN.R-project.org) with:
+<!-- You can install the released version of isoToolsR from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("isotopeUtilsR")
+install.packages("isoToolsR")
 ```
 -->
 
@@ -24,7 +24,7 @@ Install this package from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("elizabethjmohr/isotopeUtilsR")
+devtools::install_github("elizabethjmohr/isoToolsR")
 ```
 
 ## Example
@@ -33,7 +33,7 @@ Here is a basic example which shows you how to convert an isotope ratio
 to a delta value :
 
 ``` r
-library(isotopeUtilsR)
+library(isoToolsR)
 RstN <- 0.003678 # Standard isotope ratio for N
 RSamp <- 0.1 # Isotope ratio of sample 
 RToDelta(RSamp, RstN) # Returns delta value (permil)

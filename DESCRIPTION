@@ -1,4 +1,4 @@
-Package: isotopeUtilsR
+Package: isoToolsR
 Title: Converts among various stable isotope measures
 Version: 0.0.0.9000
 Authors@R: 
@@ -6,7 +6,7 @@ Authors@R:
            family = "Mohr",
            email = "elizabethmohr1@montana.edu",
            role = c("aut", "cre"))
-Description: The isotopeUtilsR package is a simple package for converting among stable isotope measures such as atom fractions, isotope ratios, and delta values.
+Description: The isoToolsR package is a simple R package for converting among stable isotope measures such as atom fractions, isotope ratios, and delta values.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
