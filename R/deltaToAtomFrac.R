@@ -10,5 +10,5 @@
 #' deltaToAtomFrac(29209.66, 0.003678)
 deltaToAtomFrac <- function(delta, Rst){
   R <- ((delta/1000)+1) * Rst
-  R/(1+R)
+  RToAtomFrac(R)
 }
